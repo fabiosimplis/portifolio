@@ -49,7 +49,7 @@ body{
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -80,7 +80,7 @@ body{
     font-size: 1.5rem;
 }
 
-.apresentacao__links__link {
+.apresentacao__links__navegacao {
     /* background-color: #22D4FD; */
     display: flex;
     justify-content: center;
@@ -88,7 +88,7 @@ body{
     font-size: 1.5rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    width: 378px;
+    width: 50%;
     text-align: center;
     border-radius: 8px;
     padding: 21.5px 0;
@@ -101,9 +101,9 @@ body{
     background-color: var(--cor-hover);
 }
 
-.apresentacao_img_perfil {
-    border-radius: 50px;
-    height: 500px;
+.apresentacao__img__perfil {
+    border-radius: 5px;
+    width: 50%;
 }
 
 .rodape {
