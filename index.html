@@ -3,11 +3,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="style.css">
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
-        <header></header>
+        <header class="cabecalho">
+            <nav class="cabecalho__menu">
+                <a class="cabecalho__menu__link" href="index.html">Home</a>
+                <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+            </nav>
+        </header>
         
         <main class="apresentacao">
             <section class="apresentacao__conteudo">
@@ -18,13 +23,25 @@
                 </p>
                 
                 <div class="apresentacao__links">
-                    <a class="apresentacao__links__link" href="https://www.instagram.com/fabio.simple?igsh=MWRnb2ZuNDhzN3FiNw%3D%3D&utm_source=qr">Instagram</a>
-                    <a class="apresentacao__links__link" href="https://github.com/fabiosimplis">GitHub</a>
+                    <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
+                    <a class="apresentacao__links__link" href="https://github.com/fabiosimplis">
+                        <img src="./assets/github.png" alt="logo github">
+                        GitHub
+                    </a>
+                    <a class="apresentacao__links__link" href="https://www.linkedin.com/in/fabio-simplis/">
+                        <img src="./assets/linkedin.png" alt="logo linkedin">
+                        LinkedIn
+
+                    </a>
                 </div>
             </section>    
-            <img src="Foto_de_Perfil.jpeg" alt="Foto do Perfil"> 
+            <img class="apresentacao_img_perfil" src="./assets/Foto_de_Perfil.jpeg" alt="Foto do Perfil">
         </main>
         
-        <footer></footer>
+        <footer class="rodape">
+            <p>
+                Desenvolvido por Fábio
+            </p>
+        </footer>
     </body>
 </html>
