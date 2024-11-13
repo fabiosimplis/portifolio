@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
+/* pseudoclasse, para que possa ser aplicada globalmente no documento HTML */
+:root {
+    --cor-principal: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22d4fd;
+    --cor-hover: #272727;
+}
 
 * {
     margin: 0;
@@ -9,8 +16,8 @@
 body{
     /* height: 100vh; */
     box-sizing: border-box;
-    background-color: black;
-    color: #F6F6F6;
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
 }
 
 .cabecalho{
@@ -26,12 +33,12 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
     text-decoration: none;
 }
 
 .titulo-destaque {
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao {
@@ -86,12 +93,12 @@ body{
     border-radius: 8px;
     padding: 21.5px 0;
     text-decoration: none;
-    color:#F6F6F6;
-    border: 2px solid #22D4FD;
+    color:var(--cor-secundaria);
+    border: 2px solid var(--cor-terciaria);
 }
 
 .apresentacao__links__link:hover {
-    background-color: #272727;
+    background-color: var(--cor-hover);
 }
 
 .apresentacao_img_perfil {
@@ -100,8 +107,8 @@ body{
 }
 
 .rodape {
-    color: #000000;
-    background-color: #22D4FD;
+    color: var(--cor-principal);
+    background-color: var(--cor-terciaria);
     padding: 25px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
